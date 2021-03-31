@@ -1,0 +1,83 @@
+ *{
+margin: 0; 
+padding: 0;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+ }
+ body{
+     background-color: #eee; /* задний фон */
+ }
+ main{
+     display: flex;
+     flex-wrap: wrap;
+background-color: rgb(1, 0, 63);
+width: 95%;
+max-width: 1000px;
+margin: auto;
+box-shadow:/* тень по краю тега*/ 0 /*по горизонтали 8*/0/*по вертикали 8*/ 10px/*зона размытия */ 1px/*зона покраски*/ darkslategray;
+ } 
+ .box{
+width: 323px;
+height: 300px;
+background-color: rgb(26, 207, 252);
+margin: 5px;
+border: solid 3px red( 221,26,26);
+border-radius: 360px;
+
+background-size: cover;
+ } 
+ .box1{
+    background-image:  url(https://assets.pinshape.com/uploads/image/file/241862/container_fortnite-logo-key-ring-3d-printing-241862.jpg);
+ }
+ .box2{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTXNM4rkTgDdtXdQalu-tc01qc0prcwAnv8Yg&usqp=CAU);
+
+ }
+ .box3{
+background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTONwkKgmpctCCSYGVyAACCgzRJWDNUsL7ngw&usqp=CAU);
+ }
+ .box4{
+ background-image: url(https://c0.klipartz.com/pngpicture/729/192/gratis-png-computadora-iconos-instagram-logo-etiqueta-logo-logo-instagram.png);    
+ }
+ .box5{
+background-image: url(http://pngimg.com/uploads/car_logo/car_logo_PNG1655.png);
+ }
+ .box6{
+     background-image: url(https://img1.freepng.ru/20180320/pfw/kisspng-russia-social-media-marketing-vkontakte-social-net-vk-logo-png-5ab0b9c12843d2.6240689915215313291649.jpg);
+ }
+ .box7{
+     background-image: url(http://pngimg.com/uploads/bmw_logo/bmw_logo_PNG19708.png);
+ }
+ .box8{
+     background-image: url(http://pngimg.com/uploads/windows_logos/small/windows_logos_PNG35.png);
+ }
+ .box9{
+     background-image: url(https://icon2.cleanpng.com/20180324/ziw/kisspng-google-logo-g-suite-google-5ab6f1f0b9e059.9680510615219389287614.jpg);
+ }
+ .box10{
+     background: url(http://pngimg.com/uploads/telegram/small/telegram_PNG35.png);
+ }
+ .box11{
+     background-image: url(https://www.meme-arsenal.com/memes/21292a284b111ed86f5baf3896f42186.jpg);
+ }
+ .box12{
+     background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzqs0P-xlhWw0kiFIm6OXRD7IP5m__y-TM7w&usqp=CAU);
+ }
+ img{
+     width: 323px;
+     height: 300px;
+     
+ }
+ img:hover{
+     transform: scale(1.2) rotate(360deg);
+     transition: 0.9s;
+     opacity: 0.9;
+ }
+ h2{
+width: 100%;
+height: 40%;
+ }
+ a:hover{
+color: dodgerblue;
+text-decoration:none;
+ }
